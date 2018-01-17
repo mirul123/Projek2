@@ -29,9 +29,9 @@ System.out.println ("Masukkan nama: ");
 System.out.println ("Masukkan Bilangan Jam kerja: ");
     bil_jam= input.nextDouble();
     
-        while(bil_jam>9){
+        while(bil_jam>10){
             
-    System.out.println ("Bilangan jam sehari tidak boleh melebihi 9 jam, Sila masukkan "
+    System.out.println ("Bilangan jam sehari tidak boleh melebihi 10 jam, Sila masukkan "
             + "bilangan jam yang betul: ");
     bil_jam= input.nextDouble();
         }
